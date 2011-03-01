@@ -1,0 +1,49 @@
+.view-banner {
+	margin-bottom:20px;
+}
+	.choose-friend-link {
+		display:none;
+	}
+
+.loading-friends {
+	display:none;
+}
+
+.find-friend {
+	display:none;
+	margin-bottom:20px;
+}
+	.choose-friend {
+		margin-bottom:20px;
+	}
+		.tag-friend {
+			width:400px;
+		}
+		#friend-suggest {
+			width:200px;
+			border:2px solid #144b62;
+			display:none;
+		}
+		#friend-suggest li {
+			padding:4px;
+			cursor:pointer;
+		}
+
+	.victim {
+		display:none;
+	}
+		.chosen-friend {
+			font-size:24px;
+			color:#a61b1b;
+			font-weight:bold;
+		}
+
+.submit {
+	margin-bottom:20px;
+}
+	.loading-vandalize {
+		display:none;
+	}
+	#vandalize {
+		display:none;
+	}
