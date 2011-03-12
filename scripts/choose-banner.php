@@ -41,7 +41,7 @@ for($i = 5; $i >= 1; $i--) {
 	
 	$file = $banner['slug'] . '-' . $i . '.jpg';
 
-	$photo_details['image'] = '@' . ABS_PATH . 'img/_banners/' . $file;
+	$photo_details['image'] = '@' . ABS_PATH . 'img/_banners/cuts/' . $file;
 	
 	try { $photo = $facebook->api('/'.$album_id.'/photos', 'post', $photo_details); } catch(FacebookApiException $e) { echo($e); }
 	

@@ -1,6 +1,8 @@
+	</section>
+	
 	<footer>
 		
-		&copy; <?=date("Y")?> [bannervandal] | [guerin <a href="http://www.thefactomat.com" target="_blank">ponizil</a>]
+		&copy; <?=date("Y")?> [bannervandal] | [<a href="http://blarintees.com/" target="_blank">guerin</a> &amp; <a href="http://www.thefactomat.com" target="_blank">ponizil</a>]
 		
 	</footer>
 

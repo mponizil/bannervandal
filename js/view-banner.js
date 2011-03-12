@@ -115,6 +115,9 @@ function vandalizeInit() {
 			$(".loading-vandalize").hide();
 			
 			alert(data);
+			
+			$(".see-work a").attr("href","http://www.facebook.com/profile.php?id=" + friendID);
+			$(".see-work").show();
 
 		})
 		

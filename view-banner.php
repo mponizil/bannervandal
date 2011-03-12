@@ -16,23 +16,9 @@ include("header.php");
 
 <div class="view-banner" id="<?=$banner['id']?>">
 
-	<?=$banner['title']?>
-
-	<ul class="banner-images">
-
-		<?php for($i = 1; $i <= 5; $i++) { ?>
-
-		<li>
-		
-			<img src="img/_banners/<?=$banner['slug']?>-<?=$i?>.jpg" />
-		
-		</li>
-
-		<?php } ?>
+	<?php if($admin) { ?><a href="admin/edit-banner.php?id=<?=$banner['id']?>"><?php } ?><?=$banner['title']?><?php if($admin) { echo("</a>"); } ?><br />
 	
-	</ul>
-	
-	<div style="clear:both;"></div>
+	<img src="img/_banners/full/<?=$banner['slug']?>.jpg" /><br />
 	
 	<a href="javascript:void(0)" class="choose-friend-link">choose a friend to vandalize</a>
 
@@ -74,6 +60,12 @@ include("header.php");
 
 	<button id="vandalize">vandalize!</button>
 
+</div>
+
+<div class="see-work">
+	
+	<a target="_blank">see your work!</a>
+	
 </div>
 
 <?php
