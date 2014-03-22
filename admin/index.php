@@ -1,5 +1,5 @@
 <?php include("header.php"); ?>
 
-welcome to the admin bitch
+<p>Welcome to the admin area<p>
 
 <?php include("footer.php"); ?>
